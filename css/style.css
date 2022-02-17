@@ -238,4 +238,23 @@
   .nft_item_specs {
     width: 100%;
   }
+
+  .footer_upsell {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .footer_upsell_first_item {
+    width: 60%;
+  }
+
+  .footer_upsell img {
+    left: 80%;
+  }
+
+  .footer {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 100px;
+  }
 }
