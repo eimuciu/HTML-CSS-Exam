@@ -36,4 +36,24 @@
     background-color: #999999;
     border-radius: 5px;
   }
+
+  .hero {
+    padding: 0px var(--mobilePadding) 75px var(--mobilePadding);
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero_first_item {
+    width: 75%;
+    z-index: 1;
+  }
+
+  .hero img {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 100%;
+    transform: translateX(-50%);
+  }
 }
