@@ -193,4 +193,22 @@
     left: 75%;
     transform: translateX(-50%);
   }
+
+  .upsell {
+    border-radius: 10px;
+  }
+
+  .press {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .company_logo {
+    width: 20%;
+    padding: 10px;
+  }
+
+  .company_logo:last-child {
+    display: block;
+  }
 }
