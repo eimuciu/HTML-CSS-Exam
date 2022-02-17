@@ -258,3 +258,78 @@
     padding-top: 100px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    padding: 0 60px;
+  }
+
+  .desktop_nav {
+    display: block;
+  }
+
+  .desktop_nav ul li {
+    display: inline-block;
+    margin-right: 28px;
+  }
+
+  .hamburger_menu {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px 0px 150px 0px;
+    margin-top: 50px;
+  }
+
+  .upsell {
+    padding-top: 120px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .press {
+    padding: 120px 0px 120px 0px;
+  }
+
+  .company_logo {
+    width: 18%;
+  }
+
+  .footer_upsell {
+    padding: 100px 0px 120px 0px;
+  }
+
+  .nft_item {
+    width: calc(25% - 10px);
+  }
+
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .footer_item {
+    width: 50%;
+  }
+
+  .footer_item:first-child {
+    padding-top: 30px;
+  }
+
+  .footer_info_item {
+    width: 25%;
+  }
+
+  .copyright {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright p:last-child {
+    display: block;
+  }
+}
