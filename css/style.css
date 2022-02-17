@@ -56,4 +56,13 @@
     left: 100%;
     transform: translateX(-50%);
   }
+
+  .upsell {
+    width: 100%;
+    padding: 100px var(--mobilePadding) var(--mobilePadding)
+      var(--mobilePadding);
+    background: url("../assets/background.svg");
+    background-size: cover;
+    background-position: center;
+  }
 }
