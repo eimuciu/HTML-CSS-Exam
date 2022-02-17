@@ -127,6 +127,7 @@
   }
 
   .footer_upsell img {
+    height: 85%;
     position: absolute;
     bottom: 0px;
     left: 90%;
@@ -161,11 +162,18 @@
   .copyright p:last-child {
     display: none;
   }
+
+  /* additional styling */
+  .i_block {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 @media only screen and (min-width: 425px) {
   .hero img {
     top: -50px;
+    height: 100%;
   }
 }
 
@@ -332,6 +340,14 @@
   .copyright p:last-child {
     display: block;
   }
+  /* additional styling */
+  .p_500_20 {
+    font-size: 15px;
+  }
+
+  img[alt="ether currency icon"] {
+    width: 10px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -346,5 +362,10 @@
 
   .company_logo {
     width: 15%;
+  }
+
+  /* additional styling */
+  .p_500_20 {
+    font-size: 20px;
   }
 }
