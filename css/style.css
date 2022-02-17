@@ -81,4 +81,34 @@
   .company_logo:last-child {
     display: none;
   }
+
+  .showcase {
+    padding: var(--mobilePadding) var(--mobilePadding) 75px var(--mobilePadding);
+    overflow-x: hidden;
+  }
+
+  .nft_items_container {
+    width: 2000px;
+  }
+
+  .nft_item {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .nft_img {
+  }
+
+  .nft_item_specs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+    width: 290px;
+    background-color: var(--light3);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    top: -5px;
+  }
 }
