@@ -162,3 +162,9 @@
     display: none;
   }
 }
+
+@media only screen and (min-width: 425px) {
+  .hero img {
+    top: -50px;
+  }
+}
