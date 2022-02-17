@@ -333,3 +333,18 @@
     display: block;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  body {
+    padding: 0 80px;
+  }
+
+  .hero h2 {
+    font-size: 6rem;
+    line-height: 116.18px;
+  }
+
+  .company_logo {
+    width: 15%;
+  }
+}
