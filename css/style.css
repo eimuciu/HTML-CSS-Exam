@@ -65,4 +65,20 @@
     background-size: cover;
     background-position: center;
   }
+
+  .press {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 50px var(--mobilePadding);
+  }
+
+  .company_logo {
+    width: 45%;
+    padding: 10px;
+  }
+
+  .company_logo:last-child {
+    display: none;
+  }
 }
