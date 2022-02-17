@@ -1,3 +1,39 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
 @import url("./common.css");
+
+:root {
+  --pink: #ff3998;
+  --orange: #ff8139;
+  --light3: #cccccc;
+  --mobilePadding: 20px;
+}
+
+@media only screen and (min-width: 320px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--mobilePadding);
+  }
+
+  .desktop_nav {
+    display: none;
+  }
+
+  .hamburger_menu {
+    height: 22px;
+    width: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .hamburger_menu div {
+    width: 80%;
+    height: 2px;
+    background-color: #999999;
+    border-radius: 5px;
+  }
+}
