@@ -96,6 +96,10 @@
     padding: 5px;
   }
 
+  .nft_img {
+    width: 100%;
+  }
+
   .nft_item_specs {
     display: flex;
     flex-flow: row wrap;
